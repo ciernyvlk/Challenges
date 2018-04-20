@@ -5,8 +5,8 @@ RUN apt-get install default-jdk -y
 RUN groupadd tomcat
 RUN useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 
-#ADD http://apache.mirrors.ionfish.org/tomcat/tomcat-7/v7.0.85/bin/apache-tomcat-7.0.85.tar.gz /tmp/
-ADD https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.85/bin/apache-tomcat-7.0.85.tar.gz /tmp/
+ADD http://apache.mirrors.ionfish.org/tomcat/tomcat-7/v7.0.85/bin/apache-tomcat-7.0.85.tar.gz /tmp/
+
 RUN mkdir /opt/tomcat
 RUN tar xzvf /tmp/apache*tar.gz -C /opt/tomcat --strip-components=1
 RUN cd /opt/tomcat
