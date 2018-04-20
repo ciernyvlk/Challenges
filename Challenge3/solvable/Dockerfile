@@ -12,5 +12,5 @@ RUN echo "#autocomplete {\n\
 }" >  /var/www/codiad/tmp/flag.css
 RUN chmod 777 /var/www/codiad/tmp -R
 USER user
-EXPOSE 8008
+EXPOSE 8888
 CMD ["supervisord", "-c", "/etc/supervisor/apache-mysql.conf"]
