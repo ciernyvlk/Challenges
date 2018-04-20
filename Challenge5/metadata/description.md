@@ -1,6 +1,4 @@
-Good job!
-You are master of crawling. Now something harder. Your Boss know that he has some dumb
-employees. Could you help him to retrieve password of user dumb? He knows only username and
-that this user work with tomcat service. But that all.
-It is up to you.
-Your flag will be password of this dumb user.
+Your Boss fired the dumb employee. Good job (in a possitive way of course ;) ).
+Now something more hard. In the enterprise are some rumors about vulnerability in system.
+Something like bash problem? A lot of systems had or have problem with this vulnerability a few years ago.
+Could you test our system if it is vulnerable? In the rumors was mentioned something like file vuln.

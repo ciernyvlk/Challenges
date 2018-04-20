@@ -14,7 +14,7 @@ enable_flag_input: true
 flag: 'role1'
 
 # Skills related to the challenge: ['SQL injection','Web','Linux']
-skills: ['Metasploit','Offensive', 'Brute-force','Linux']
+skills: ['Metasploit','Offensive', 'Password','Linux']
 
 # Recommended readings
 recommendations:

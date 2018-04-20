@@ -2,19 +2,19 @@
 version: "v2.0.0"
 
 # Name of the challenge
-name: 'Dumb user'
+name: 'Hidden in the sand'
 
 #Difficulty: 10 - 500
-difficulty: 70
+difficulty: 150
 
 #Enable inputbox to submit flag: true | false
 enable_flag_input: true
 
 # If the solution is a fix string (static flag) you can add it here
-flag: 'role1'
+flag: 'n1ceJ0B'
 
 # Skills related to the challenge: ['SQL injection','Web','Linux']
-skills: ['Metasploit','Offensive', 'Brute-force','Linux']
+skills: ['Metasploit','Offensive', 'CVE','Linux']
 
 # Recommended readings
 recommendations:
@@ -29,4 +29,4 @@ crp_config:
         # Required Linux capabilities (See http://man7.org/linux/man-pages/man7/capabilities.7.html for the full list).
         # For example ["SETGID","SETUID"]
         # capabilities: [] # Not needed if empty
-        ports: ['8888/tcp']
+        ports: ['80/tcp']
