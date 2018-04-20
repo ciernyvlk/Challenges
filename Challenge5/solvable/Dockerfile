@@ -84,9 +84,8 @@ RUN chmod 777 -R /usr/lib/cgi-bin/
 RUN a2enmod cgid
 RUN a2enconf serve-cgi-bin
 RUN echo "<html>\n\
-    <head><title>Vulnerables | ShellShock</title></head>\n\
+    <head><title>ShellShock</title></head>\n\
     <body>\n\
-        <h1>This image is vulnerable to ShellShock, please exploit it</h1>\n\
         <pre>The script is at /cgi-bin/vuln</pre>\n\
     </body>\n\
 </html>" > /var/www/html/index.html
