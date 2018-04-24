@@ -1,7 +1,7 @@
 FROM avatao/ubuntu:14.04
 
-RUN apt-get update 
-    && apt-get upgrade -y \
+RUN apt-get update \
+    && apt-get upgrade -y 
 RUN apt-get install apache2 wget -y
 
 
