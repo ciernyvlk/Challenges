@@ -24,7 +24,7 @@ use exploit/multi/http/apache_mod_cgi_bash_env_exec
 
 Cost: 20%
 
-You have to set RHOST to IP_address and targeturi to /cgi-bin/vuln
+You have to set RHOST to IP_address and targeturi to /cgi-bin/vuln and also set payload to linux/x64/shell/bind_tcp
  
 ## Complete solution
 

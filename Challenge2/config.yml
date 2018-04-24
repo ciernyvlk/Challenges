@@ -11,7 +11,7 @@ difficulty: 30
 enable_flag_input: true
 
 # If the solution is a fix string (static flag) you can add it here
-flag: '666'
+flag: 'ssh'
 
 # Skills related to the challenge: ['SQL injection','Web','Linux']
 skills: ['Metasploit','Offensive', 'Scanning','Linux']
