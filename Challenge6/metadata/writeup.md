@@ -1,6 +1,6 @@
 # Hidden in the sand
 
-## What vulnerability I have to tested?
+## What vulnerability I have to test?
 
 Cost: 30%
 
@@ -34,5 +34,5 @@ And there is file called flag. Just open it and see flag: n1ceJ0B.
 
 #### Lessons learned
 
-  * How we can do bruteforce on service throught metasploit.
-  * How we can set username that we want its password.
+  * How we can do brute-force on service through metasploit.
+  * How we can set username that we want password of.

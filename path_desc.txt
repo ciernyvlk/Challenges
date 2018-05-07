@@ -1,8 +1,10 @@
-In this path you will be work with very useful pentester tool - Metasploit.
-All challenges are prepared for this tool (of course, there are also some ways how to do it without metasploit but this path is to learn work with this tool).
-These challenges contain only basic functions of Metasploit like choose the correct module, correct settings of that module, ...
+Basic Tool tutorial: Metasploit
 
-You need to run metasploit in your host. You can find some installation guides on Internet. One of them for Linux machine is:
+In this path you will work with very useful pentester tool - Metasploit.
+All challenges are prepared for this tool (of course, there are also some ways how to do it without metasploit but this path is to learn how to work with this tool).
+These challenges contain only basic functions of Metasploit like choice of the correct module, correct settings of that module, ...
+
+You need to run metasploit in your host. You can find some installation guides on the Internet. One of them for Linux machine is:
 * curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
 * chmod 755 msfinstall
 * ./msfinstall

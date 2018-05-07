@@ -1,1 +1,1 @@
-Is it possible to scan througt metasploit?
+Is it possible to scan through metasploit?

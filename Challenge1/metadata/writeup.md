@@ -8,7 +8,7 @@ If you want to start metasploit console, run command
 ```bash
 msfconsole
 ```
-## What command have to use for find the flag?
+## What command I have to use to find the flag?
 
 Cost: 30%
 
