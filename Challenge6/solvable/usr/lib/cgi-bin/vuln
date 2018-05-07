@@ -1,0 +1,6 @@
+#!/bin/bash\n\
+
+echo "Content-type: text/html";
+echo ""
+
+uptime
