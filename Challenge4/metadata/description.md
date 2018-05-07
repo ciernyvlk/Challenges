@@ -1,6 +1,5 @@
-Good job!
-You are master of crawling. Now something harder. Your Boss know that he has some dumb
-employees. Could you help him to retrieve password of user dumb? He knows only username and
-that this user work with tomcat service. But that all.
-It is up to you.
-Your flag will be password of this dumb user.
+Nice job. Now you know how to scan target host. Your next job is to find all active websites
+on the IP_address. Are you bolt enough to do that?
+The flag could be somewhere in the webpages or plugins or ...
+
+PS: you do not have to do it manually.

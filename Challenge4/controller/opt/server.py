@@ -14,7 +14,7 @@ def test():
 def solution_check():
     submitted_solution = request.json['solution']
     
-    if submitted_solution != 'ssh':
+    if submitted_solution != 'cr4Wler':
          return jsonify(solved=False)
          
     return jsonify(solved=True)

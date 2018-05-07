@@ -1,36 +1,35 @@
-# Hidden in the sand
+# Dumb user
 
-## What vulnerability I have to tested?
+## What kind of attack can I use?
 
-Cost: 30%
+Cost: 5%
 
-CVE-2014-6271
+Brute-force attack.
 
-## What could be vulnerable?
-
-Cost: 15%
-
-cgi-bin scripts
-
-## What module I have to use?
+## What is vulnerable? 
 
 Cost: 25%
 
-```bash
-use exploit/multi/http/apache_mod_cgi_bash_env_exec
- ```
+Tomcat Manager.
 
-## How to set the module?
+## What payload/exploit I have to use?
+
+Cost: 40%
+
+```bash
+use auxiliary/scanner/http/tomcat_mgr_login
+ ```
+ 
+## How to set it?
 
 Cost: 20%
 
-You have to set RHOST to IP_address and targeturi to /cgi-bin/vuln and also set payload to linux/x64/shell/bind_tcp
- 
+set username to user dumb, ip address to IP_address and port to 8080
+
 ## Complete solution
 
-Yes, it was shellshock vulnerability and unfortunately our host is vulnerable to it.
-When you set all attributes correctly and run the module, you can see Meterpreter console.
-And there is file called flag. Just open it and see flag: n1ceJ0B.
+When you set the module correctly, run it and you will see bruteforce attack on tomcat manager service.
+Some of the accounts will have guessed the password correctly. Now you have to only choose the correct one what is for user dumb - flag: role1.
 
 #### Lessons learned
 

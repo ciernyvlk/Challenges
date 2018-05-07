@@ -1,38 +1,36 @@
-# Spider and his Webspider
-
-## What kind of tool I have to use?
-
-Cost: 0%
-
-Crawler tool.
-
-## What payload/exploit I have to use?
-
-Cost: 40%
-
-```bash
-use auxiliary/scanner/http/crawler
- ```
- 
-## How to set it?
+# Somewhere in the Host
+## What could I use for next step?
 
 Cost: 20%
 
-It is necessary to set host ip address, port number in module.
+SNMP protocol
 
-## Values to set in module
+## What module I have to use?
 
 Cost: 30%
 
-set RPORT 8888
-set RHOST IP_address
+```bash
+use auxiliary/scanner/snmp/snmp_enum
+```
 
+## How to set the module?
+
+Cost: 25%
+
+You have to set RHOST to IP_address and port.
+ 
+## Where is the flag hidden?
+
+Cost: 15%
+
+In the running processes.
+ 
+ 
 ## Complete solution
 
-When we run crawler module with correct parameters, we will see list of results that were found.
-Between them you will see flag.css. When you run thw whole path into browser you will see flag: cr4Wler.
+When you set all attributes correctly and run the module, you can see a lot of information about the target host from SNMP protocol.
+Last part contains information about running processes that you can see process with name Flag:g00d. So, the flag for this challenge is g00d.
 
 #### Lessons learned
 
-  * How to use crawler in metasploit.
- 
+  * How to obtain some information from snmp protocol with right community.

@@ -14,7 +14,7 @@ def test():
 def solution_check():
     submitted_solution = request.json['solution']
     
-    if submitted_solution != 'cr4Wler':
+    if submitted_solution != 'G00d':
          return jsonify(solved=False)
          
     return jsonify(solved=True)
