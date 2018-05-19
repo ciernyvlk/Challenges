@@ -1,7 +1,8 @@
 FROM avatao/ubuntu:16.04
 RUN apt-get update
 RUN apt-get install supervisor -y
-RUN apt-get install snmpd -y
+RUN apt-get update \
+	&& apt-get install snmpd -qy
 RUN echo "rocommunity public" > /etc/snmp/snmpd.conf
 
 #RUN 
@@ -17,7 +18,7 @@ autorestart=true\n\
 priority=958\n\
 \n\
 [program:flag]\n\
-command=bash -c 'exec -a Flag:g00d sleep 1000000000' &\n\
+command=bash -c 'exec -a Flag:G00d sleep 1000000000' &\n\
 autostart=true\n\
 autorestart=true\n\
 priority=958" > /etc/supervisor/supervisord.conf

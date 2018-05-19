@@ -18,13 +18,13 @@ Cost: 50%
 
 run into metasploit console:
 ```bash
-nmap -sV IP_address
+nmap -sV IP_address -p port
 ```
 
 ## Complete solution
 
 We want to see running services therefore we need parameter -sV in nmap -> probe open ports to determine service/version info.
-When you run the command above you will see running ssh service at port 666. So the flag is: ssh.
+When you run the command above you will see running ssh service at port. So the flag is: ssh.
 
 #### Lessons learned
 

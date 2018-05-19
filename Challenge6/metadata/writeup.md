@@ -1,4 +1,4 @@
-# Hidden in the sand
+# Hidden in the Sand
 
 ## What vulnerability I have to test?
 
@@ -34,5 +34,5 @@ And there is file called flag. Just open it and see flag: n1ceJ0B.
 
 #### Lessons learned
 
-  * How we can do brute-force on service through metasploit.
-  * How we can set username that we want password of.
+  * How we can use exploit and payload at the same time.
+  * How we can create session.

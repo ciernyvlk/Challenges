@@ -45,7 +45,7 @@ RUN echo "<?xml version='1.0' encoding='utf-8'?>\
   <role rolename=\"manager-gui\"/>\
   <user username=\"root\" password=\"tomcat\" roles=\"admin,role1,tomcat,manager,manager-gui\"/>\
   <user username=\"role1\" password=\"root\" roles=\"admin,role1,tomcat,manager,manager-gui\"/>\
-  <user username=\"admin\" password=\"admin\" roles=\"role1,manager-gui,tomcat,manager\"/>\
+  <user username=\"admin\" password=\"s3cret\" roles=\"role1,manager-gui,tomcat,manager\"/>\
   <user username=\"dumb\" password=\"role1\" roles=\"manager,tomcat,role1,manager-gui\"/>\ 
   <user username=\"manager\" password=\"manager\" roles=\"admin,manager,tomcat,role1,manager-gui\"/>\ 
 </tomcat-users>"  > /opt/tomcat/conf/tomcat-users.xml

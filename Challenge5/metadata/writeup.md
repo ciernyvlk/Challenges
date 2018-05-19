@@ -1,4 +1,4 @@
-# Dumb user
+# Dumb User
 
 ## What kind of attack can I use?
 

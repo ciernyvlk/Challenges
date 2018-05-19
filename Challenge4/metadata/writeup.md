@@ -12,7 +12,7 @@ Cost: 40%
 
 ```bash
 use auxiliary/scanner/http/crawler
- ```
+```
  
 ## How to set it?
 

@@ -2,7 +2,7 @@
 version: "v2.0.0"
 
 # Name of the challenge
-name: 'Dumb user'
+name: 'Dumb User'
 
 #Difficulty: 10 - 500
 difficulty: 70
@@ -14,11 +14,12 @@ enable_flag_input: true
 flag: 'role1'
 
 # Skills related to the challenge: ['SQL injection','Web','Linux']
-skills: ['Metasploit','Offensive', 'Password','Linux']
+skills: ['Metasploit','Offensive','Linux']
 
 # Recommended readings
 recommendations:
     https://www.offensive-security.com: 'Some Metasploit possibilities'
+    https://www.owasp.org/index.php/Securing_tomcat#Securing_Manager_WebApp: 'Tomcat'
 
 # The emails of the Intellectual Property (IP) owners. Note that it is also possible that the owner is the same as the content creator.
 owners: ['409773@mail.muni.cz']
@@ -30,3 +31,4 @@ crp_config:
         # For example ["SETGID","SETUID"]
         # capabilities: [] # Not needed if empty
         ports: ['8080/tcp']
+        mem_limit: '300M'

@@ -19,6 +19,7 @@ skills: ['Metasploit','Offensive', 'Scanning','Linux']
 # Recommended readings
 recommendations:
     https://www.offensive-security.com: 'Some Metasploit possibilities'
+    https://www.offensive-security.com/metasploit-unleashed/vulnerability-scanning/: 'Scanning'
 
 # The emails of the Intellectual Property (IP) owners. Note that it is also possible that the owner is the same as the content creator.
 owners: ['409773@mail.muni.cz']

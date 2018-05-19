@@ -29,7 +29,7 @@ In the running processes.
 ## Complete solution
 
 When you set all attributes correctly and run the module, you can see a lot of information about the target host from SNMP protocol.
-Last part contains information about running processes that you can see process with name Flag:g00d. So, the flag for this challenge is g00d.
+Last part contains information about running processes that you can see process with name Flag:G00d. So, the flag for this challenge is G00d.
 
 #### Lessons learned
 
