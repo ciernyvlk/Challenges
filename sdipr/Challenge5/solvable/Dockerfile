@@ -18,9 +18,8 @@ RUN pwd
 RUN chmod -R g+r /opt/tomcat/conf
 RUN chmod g+x /opt/tomcat/conf
 
-COPY ./solvable/ /
 RUN chown -R tomcat /opt/tomcat/webapps/ /opt/tomcat/work/ /opt/tomcat/temp/ /opt/tomcat/logs/
-
+COPY ./solvable/ /
 
 RUN initctl reload-configuration
 RUN initctl start tomcat
