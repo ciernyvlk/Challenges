@@ -1,0 +1,1 @@
+The aim of this task is to search pages using so called crawling or spidering which are able to search, using automatized processes, available and most frequently used pages. Thanks to this tool, it is possible to find all the necessary complements much faster and easier compared to the manual search. 

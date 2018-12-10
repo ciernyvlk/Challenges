@@ -1,0 +1,24 @@
+In this path you will work with very useful pentester tool - Metasploit. All
+challenges are prepared for this tool (of course, there are also some other
+ways how to do it without Metasploit but this path is to learn how to work with
+this tool).
+
+Metasploit is very powerful tool using by pentesters. It offers a lot of
+modules for scanning, gathering information, exploiting, post-exploiting etc.
+It offers also to build own modules, use a lot of encoders to avoid detection
+ad also toolkit for social engineering. Some documentation you can found here:
+https://www.tutorialspoint.com/metasploit/ 
+
+You need to run metasploit in your host. You can find some installation guides
+for Linux host on official Metasploit site: https://www.metasploit.com/download. All
+challenges are tested from Linux machine with version 4.14.13-dev of Metasploit
+Framework
+and also version 4.14.13-dev of Metasploit console. 
+
+I hope you will enjoy these challenges. Good luck and have a nice
+time! 
+
+
+Important: IP and port in the challenges won't accept netcat connections
+(despite the message). They are there only for setting correct attributes in
+modules.

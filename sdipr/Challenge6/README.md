@@ -1,0 +1,1 @@
+The aim of this task is to try to enable a session and to work with Meterpreter. To enable a session the vulnerability Shellshock is used using scripts in cgi-bin folder. 

@@ -1,0 +1,34 @@
+# Version of the config.yml
+version: "v2.0.0"
+
+# Name of the challenge
+name: 'Dumb User'
+
+#Difficulty: 10 - 500
+difficulty: 70
+
+#Enable inputbox to submit flag: true | false
+enable_flag_input: true
+
+# If the solution is a fix string (static flag) you can add it here
+flag: 'role1'
+
+# Skills related to the challenge: ['SQL injection','Web','Linux']
+skills: ['Metasploit','Offensive','Linux']
+
+# Recommended readings
+recommendations:
+    https://www.offensive-security.com: 'Some Metasploit possibilities'
+    https://www.owasp.org/index.php/Securing_tomcat#Securing_Manager_WebApp: 'Tomcat'
+
+# The emails of the Intellectual Property (IP) owners. Note that it is also possible that the owner is the same as the content creator.
+owners: ['409773@mail.muni.cz']
+
+# CRP Config
+crp_config:
+    solvable:
+        # Required Linux capabilities (See http://man7.org/linux/man-pages/man7/capabilities.7.html for the full list).
+        # For example ["SETGID","SETUID"]
+        # capabilities: [] # Not needed if empty
+        ports: ['8080/tcp']
+        mem_limit: '300M'
