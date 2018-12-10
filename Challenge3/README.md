@@ -1,1 +1,1 @@
-# vlcik-somewhere-in-the-host-2018-05-07
+The aim is to scan the host using snmp protocol. Using the correct settings and the choice of appropriate unit, we can find out a lot of information with this task because this protocol serves to monitor the overall status of the host (either status of processors, memory,…), its task, connections, running tasks,…etc.

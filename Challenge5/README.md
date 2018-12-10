@@ -1,1 +1,1 @@
-# vlcik-dumb-user-2018-04-20
+The aim of this task is to try brute-force attach (using Metasploit console) for singing in into Tomcat Application Manager. 

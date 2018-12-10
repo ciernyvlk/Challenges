@@ -19,7 +19,8 @@ skills: ['Metasploit','Offensive', 'Scanning','Linux']
 # Recommended readings
 recommendations:
     https://www.offensive-security.com: 'Some Metasploit possibilities'
-    http://www.snmp.com/protocol/: 'Useful protocol'
+    https://anturis.com/network-protocols-monitoring/: 'Monitoring protocols'
+    http://www.ciscopress.com/articles/article.asp?p=1073230&seqNum=4: 'Some useful protocols'
 
 # The emails of the Intellectual Property (IP) owners. Note that it is also possible that the owner is the same as the content creator.
 owners: ['409773@mail.muni.cz']

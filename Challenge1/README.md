@@ -1,3 +1,1 @@
-# vlcik-magic-tool-2018-04-18
-Metasploit tool start
-..
+Challenge about how to start Metasploit

@@ -1,1 +1,1 @@
-# vlcik-scanner-or-not-2018-04-20
+The aim of this task is the demonstration of Metasploit being able to work with external tools. One of them is also nmap. In this task, the user shall find the running task on given port.

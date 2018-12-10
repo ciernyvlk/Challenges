@@ -1,18 +1,18 @@
 # Scanner or Not?
 
-## What kind of tool I have to use?
+## What type of tool is necessary to use?
 
 Cost: 0%
 
 Active scanner.
 
-## What could be useful to run?
+## What can be useful to run?
 
 Cost: 40%
 
 Try to use Nmap tool.
 
-## How to set it properly?
+## How to set it up correctly?
 
 Cost: 50%
 
@@ -24,7 +24,7 @@ nmap -sV IP_address -p port
 ## Complete solution
 
 We want to see running services therefore we need parameter -sV in nmap -> probe open ports to determine service/version info.
-When you run the command above you will see running ssh service at port. So the flag is: ssh.
+After the command execution, you can see that on the port the task ssh is running. That is why ssh is the flag for this task.
 
 #### Lessons learned
 

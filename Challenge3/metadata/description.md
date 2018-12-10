@@ -1,5 +1,8 @@
-Your Boss thinks that scanning through nmap was too easy. Could you try to scan it another way?
+Your boss thinks that scanning using the nmap tool was too easy. Can you scan it in a different way?
 
-In the vulnerable host you can find some service (this service is running on UDP port) to use for next step. Try to find out as much information as possible and I guarantee you that the flag will be between that info. For the second step I recommend you to use module related to service running on a UDP port. 
+On the vulnerable host, you can find a task (this task runs on UDP port) which you can use in next step. Mostly, this task is used to monitor systems. Try to gain as much information about whole system as possible and I guarantee you that the flag will be somewhere there. In next step, I recommend you to find the unit linked to the running task on UDP port which enables you to find necessary information.
+
+When searching the unit, it is necessary to choose the correct one. Many of them are destined for concrete types of systems.
+
 
 PS: Do not forget, that the IP and port below won't accept netcat connections (despite the message).

@@ -1,11 +1,11 @@
 # Somewhere in the Host
-## What could I use for next step?
+## What can be used in the next step?
 
 Cost: 20%
 
 SNMP protocol
 
-## What module I have to use?
+## What module to use?
 
 Cost: 30%
 
@@ -13,7 +13,7 @@ Cost: 30%
 use auxiliary/scanner/snmp/snmp_enum
 ```
 
-## How to set the module?
+## What is necessary to set up on the module?
 
 Cost: 25%
 
@@ -28,8 +28,7 @@ In the running processes.
  
 ## Complete solution
 
-When you set all attributes correctly and run the module, you can see a lot of information about the target host from SNMP protocol.
-Last part contains information about running processes that you can see process with name Flag:G00d. So, the flag for this challenge is G00d.
+After choosing the correct module and settings, you can see the result of module run where is a lot of information about the target host. Last part of this information includes a statement of running processes where the flag is hidden under the name Flag:G00d. The result of this task is the word G00d.
 
 #### Lessons learned
 

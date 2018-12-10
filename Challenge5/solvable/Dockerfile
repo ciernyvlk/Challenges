@@ -1,10 +1,12 @@
 FROM avatao/ubuntu:14.04
 
+#update base image
 RUN apt-get update
 RUN apt-get install default-jdk -y
 RUN groupadd tomcat
 RUN useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 
+#installing tomcat vulnerable version and make initial settings of it
 #ADD http://apache.mirrors.ionfish.org/tomcat/tomcat-7/v7.0.85/bin/apache-tomcat-7.0.85.tar.gz /tmp/
 ADD https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.85/bin/apache-tomcat-7.0.85.tar.gz /tmp/
 RUN mkdir /opt/tomcat
@@ -18,6 +20,7 @@ RUN chmod g+x /opt/tomcat/conf
 
 RUN chown -R tomcat /opt/tomcat/webapps/ /opt/tomcat/work/ /opt/tomcat/temp/ /opt/tomcat/logs/
 
+#set attributes which make tomcat manager vulnerable
 RUN echo "description \"Tomcat Server\"\n\
   start on runlevel [2345]\n\
   stop on runlevel [!2345]\n\
@@ -36,6 +39,7 @@ RUN echo "description \"Tomcat Server\"\n\
 RUN initctl reload-configuration
 RUN initctl start tomcat
 
+#tomcat manager attributes, which are default or vulnerable and detectable by Metasploit modules
 RUN echo "<?xml version='1.0' encoding='utf-8'?>\
 <tomcat-users>\
   <role rolename=\"tomcat\"/>\

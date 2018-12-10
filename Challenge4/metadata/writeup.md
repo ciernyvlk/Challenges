@@ -1,12 +1,12 @@
 # Spider and his Webspider
 
-## What kind of tool I have to use?
+## What tool to use?
 
 Cost: 0%
 
-Crawler tool.
+Tool for crawling.
 
-## What payload/exploit I have to use?
+## What payload/exploit to use?
 
 Cost: 40%
 
@@ -14,13 +14,13 @@ Cost: 40%
 use auxiliary/scanner/http/crawler
 ```
  
-## How to set it?
+## What is necessary to set up on the module?
 
 Cost: 20%
 
 It is necessary to set host ip address, port number in module.
 
-## Values to set in module
+## How to set up values on the module?
 
 Cost: 30%
 
@@ -29,8 +29,9 @@ set RHOST IP_address
 
 ## Complete solution
 
-When we run crawler module with correct parameters, we will see list of results that were found.
-Between them you will see flag.css. When you run the whole path into browser you will see the flag: cr4Wler.
+When choosing the correct module and settings, we will see list of results that were found.
+In active pages and components search, we can see the line that comprises flag.css. We insert the address into the browser where we see the content of the file which includes the flag. 
+The content shows that the flag for this task is the word cr4Wler.
 
 #### Lessons learned
 

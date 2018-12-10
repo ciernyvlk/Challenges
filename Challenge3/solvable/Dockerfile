@@ -1,12 +1,12 @@
 FROM avatao/ubuntu:16.04
+#update base image and install snmp protocol, set common attributes
 RUN apt-get update
 RUN apt-get install supervisor -y
 RUN apt-get update \
 	&& apt-get install snmpd -qy
 RUN echo "rocommunity public" > /etc/snmp/snmpd.conf
 
-#RUN 
-
+#set supervisord script for running services in container
 RUN echo "[supervisord]\n\
 nodaemon=true\n\
 \n\

@@ -1,43 +1,37 @@
 # Magic Tool
 
-## How to start metasploit console?
+## How to turn on Metasploit Console?
 
-Cost: 20%
+Cost: 35%
 
 If you want to start metasploit console, run command
 ```bash
 msfconsole
 ```
-## What command I have to use to find the flag?
+## What command to use to find the flag?
 
-Cost: 30%
+Cost: 55%
 
 You have to run 
 ```bash 
 search
 ```
-in running metasploit console.
-
-## What is full solution?
-
-Cost: 40%
-
-You have to run command
-```bash
-search nmap
-```
-After that, you will see list of exploits/payloads/... in a row with description Setuid Nmap Exploit
-you will see 2012-07-19 as date of disclosure.
-
-
+in Metasploit console.
 
 ## Complete solution
 
-As the solution is a year of this date, the flag is 2012.
+After the command execution
+```bash
+search nmap
+```
+you will see the result of search exploits/payloads/... in a row with description Setuid Nmap Exploit
+you will see line with 2012-07-19 as date of disclosure.
+
+As the flag for this task is the year, thus the answer is 2012.
 
 #### Lessons learned
 
-  * What is metasploit.
-  * How to run metasploit console.
-  * How to search between metasploit modules.
+  * What is Metasploit.
+  * How to run Metasploit console.
+  * How to search between Metasploit modules.
 

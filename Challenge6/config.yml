@@ -19,6 +19,9 @@ skills: ['Metasploit','Offensive', 'CVE','Linux']
 # Recommended readings
 recommendations:
     https://www.offensive-security.com: 'Some Metasploit possibilities'
+    https://www.offensive-security.com/metasploit-unleashed/exploits/: 'Usage of exploits'
+    https://security.stackexchange.com/questions/46080/resources-for-determining-if-metasploit-has-exploit-for-given-cve: 'Information for exploit CVE'
+    
 
 # The emails of the Intellectual Property (IP) owners. Note that it is also possible that the owner is the same as the content creator.
 owners: ['409773@mail.muni.cz']

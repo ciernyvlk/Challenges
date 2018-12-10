@@ -1,6 +1,6 @@
 # Dumb User
 
-## What kind of attack can I use?
+## What type of attack to use?
 
 Cost: 5%
 
@@ -12,7 +12,7 @@ Cost: 25%
 
 Tomcat Manager.
 
-## What payload/exploit I have to use?
+## What payload/exploit to use?
 
 Cost: 40%
 
@@ -20,7 +20,7 @@ Cost: 40%
 use auxiliary/scanner/http/tomcat_mgr_login
  ```
  
-## How to set it?
+## How to set up values in the module correctly?
 
 Cost: 20%
 
@@ -28,9 +28,8 @@ set username to user dumb, ip address to IP_address and port
 
 ## Complete solution
 
-When you set the module correctly, run it and you will see brute-force attack on tomcat manager service.
-Some of the accounts will have guessed the password correctly. Now you have to choose only the correct one which is for user dumb - flag: role1.
-
+When choosing the correct module and settings, run it and you will see brute-force attack on tomcat manager service.
+This result shows us that we found more passwords different users - dumb, admin, manager, role1 and root. The result is the password of dumb user, thus the flag is role1.
 #### Lessons learned
 
   * How we can do brute-force on service through metasploit.
